@@ -5,41 +5,6 @@ This project is a simple RESTful API built using Node.js, Express, and MongoDB. 
 
 -----------------------------------------------------------------------------------------------------------
 
-
-Features
-*Create a new service: Add a new healthcare service with a unique auto-incrementing serviceId, name, description, and price.
-*Get all services: Retrieve a list of all available healthcare services.
-*Get a specific service: Retrieve the details of a specific service using its serviceId.
-*Update a service: Modify the details of an existing service.
-*Delete a service: Remove a service from the list.
-
------------------------------------------------------------------------------------------------------------
-
-
-Technology Stack
-*Node.js
-*Express.js (Framework)
-*MongoDB (Database)
-*Mongoose (MongoDB ODM)
-*Nodemon (Development server auto-reloading)
-
-
------------------------------------------------------------------------------------------------------------
-
-
-PROJECT STUCTURE
-.
-├── models/               # Mongoose models (Service and Counter)
-│   └── Service.js        # Service model schema  
-├── routes/               # Express route handlers
-│   └── services.js       # Routes for handling service-related requests
-├── server.js             # Main server file
-├── package.json          # Node.js package manifest
-└── README.md             # Project documentation
-
------------------------------------------------------------------------------------------------------------
-
-
 API Endpoints
 
 *****************************************************************
