@@ -43,7 +43,7 @@ Installation Steps
 1.Clone the repository:
 
 
-git clone https://github.com/your-username/healthcare-service-api.git
+git clone https://github.com/sk6138/healthcare-service-api.git
 cd healthcare-service-api
 
 *************************************************************************
